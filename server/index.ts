@@ -28,7 +28,7 @@ db.once("open", () => {
 {/*a*/}
 const io = new Server(server, {
   cors: {
-    origin:"http://localhost:3000"
+    origin:"https://kilogram-eqmrgkhwh-adityas-projects-6d993e50.vercel.app"
   }
 })
 
